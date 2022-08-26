@@ -1,0 +1,18 @@
+.justified-gallery{
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.justified-gallery > div,
+.justified-gallery > div > a
+/*.justified-gallery > div > a > img*/
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 1rem;
+  border: none;
+}
